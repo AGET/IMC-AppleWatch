@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1741C6351EAF1E0E00276E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C6341EAF1E0E00276E13 /* AppDelegate.swift */; };
+		1741C6371EAF1E0E00276E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C6361EAF1E0E00276E13 /* ViewController.swift */; };
+		1741C63A1EAF1E0E00276E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741C6381EAF1E0E00276E13 /* Main.storyboard */; };
+		1741C63C1EAF1E0E00276E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741C63B1EAF1E0E00276E13 /* Assets.xcassets */; };
+		1741C63F1EAF1E0E00276E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741C63D1EAF1E0E00276E13 /* LaunchScreen.storyboard */; };
+		1741C6441EAF1E0F00276E13 /* IMC_AppleWath WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1741C6431EAF1E0F00276E13 /* IMC_AppleWath WatchKit App.app */; };
+		1741C64A1EAF1E0F00276E13 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1741C6481EAF1E0F00276E13 /* Interface.storyboard */; };
+		1741C64C1EAF1E0F00276E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741C64B1EAF1E0F00276E13 /* Assets.xcassets */; };
+		1741C6531EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1741C6521EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1741C6581EAF1E0F00276E13 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C6571EAF1E0F00276E13 /* InterfaceController.swift */; };
+		1741C65A1EAF1E0F00276E13 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741C6591EAF1E0F00276E13 /* ExtensionDelegate.swift */; };
+		1741C65C1EAF1E0F00276E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1741C65B1EAF1E0F00276E13 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1741C6451EAF1E0F00276E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1741C6291EAF1E0E00276E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1741C6421EAF1E0F00276E13;
+			remoteInfo = "IMC_AppleWath WatchKit App";
+		};
+		1741C6541EAF1E0F00276E13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1741C6291EAF1E0E00276E13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1741C6511EAF1E0F00276E13;
+			remoteInfo = "IMC_AppleWath WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1741C6631EAF1E0F00276E13 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1741C6531EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C6671EAF1E0F00276E13 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1741C6441EAF1E0F00276E13 /* IMC_AppleWath WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1741C6311EAF1E0E00276E13 /* IMC_AppleWath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMC_AppleWath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C6341EAF1E0E00276E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1741C6361EAF1E0E00276E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1741C6391EAF1E0E00276E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1741C63B1EAF1E0E00276E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1741C63E1EAF1E0E00276E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1741C6401EAF1E0E00276E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1741C6431EAF1E0F00276E13 /* IMC_AppleWath WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IMC_AppleWath WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C6491EAF1E0F00276E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1741C64B1EAF1E0F00276E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1741C64D1EAF1E0F00276E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1741C6521EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IMC_AppleWath WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1741C6571EAF1E0F00276E13 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1741C6591EAF1E0F00276E13 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1741C65B1EAF1E0F00276E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1741C65D1EAF1E0F00276E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1741C62E1EAF1E0E00276E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C64F1EAF1E0F00276E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1741C6281EAF1E0E00276E13 = {
+			isa = PBXGroup;
+			children = (
+				1741C6331EAF1E0E00276E13 /* IMC_AppleWath */,
+				1741C6471EAF1E0F00276E13 /* IMC_AppleWath WatchKit App */,
+				1741C6561EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension */,
+				1741C6321EAF1E0E00276E13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1741C6321EAF1E0E00276E13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1741C6311EAF1E0E00276E13 /* IMC_AppleWath.app */,
+				1741C6431EAF1E0F00276E13 /* IMC_AppleWath WatchKit App.app */,
+				1741C6521EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1741C6331EAF1E0E00276E13 /* IMC_AppleWath */ = {
+			isa = PBXGroup;
+			children = (
+				1741C6341EAF1E0E00276E13 /* AppDelegate.swift */,
+				1741C6361EAF1E0E00276E13 /* ViewController.swift */,
+				1741C6381EAF1E0E00276E13 /* Main.storyboard */,
+				1741C63B1EAF1E0E00276E13 /* Assets.xcassets */,
+				1741C63D1EAF1E0E00276E13 /* LaunchScreen.storyboard */,
+				1741C6401EAF1E0E00276E13 /* Info.plist */,
+			);
+			path = IMC_AppleWath;
+			sourceTree = "<group>";
+		};
+		1741C6471EAF1E0F00276E13 /* IMC_AppleWath WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1741C6481EAF1E0F00276E13 /* Interface.storyboard */,
+				1741C64B1EAF1E0F00276E13 /* Assets.xcassets */,
+				1741C64D1EAF1E0F00276E13 /* Info.plist */,
+			);
+			path = "IMC_AppleWath WatchKit App";
+			sourceTree = "<group>";
+		};
+		1741C6561EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1741C6571EAF1E0F00276E13 /* InterfaceController.swift */,
+				1741C6591EAF1E0F00276E13 /* ExtensionDelegate.swift */,
+				1741C65B1EAF1E0F00276E13 /* Assets.xcassets */,
+				1741C65D1EAF1E0F00276E13 /* Info.plist */,
+			);
+			path = "IMC_AppleWath WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1741C6301EAF1E0E00276E13 /* IMC_AppleWath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741C6681EAF1E0F00276E13 /* Build configuration list for PBXNativeTarget "IMC_AppleWath" */;
+			buildPhases = (
+				1741C62D1EAF1E0E00276E13 /* Sources */,
+				1741C62E1EAF1E0E00276E13 /* Frameworks */,
+				1741C62F1EAF1E0E00276E13 /* Resources */,
+				1741C6671EAF1E0F00276E13 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1741C6461EAF1E0F00276E13 /* PBXTargetDependency */,
+			);
+			name = IMC_AppleWath;
+			productName = IMC_AppleWath;
+			productReference = 1741C6311EAF1E0E00276E13 /* IMC_AppleWath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1741C6421EAF1E0F00276E13 /* IMC_AppleWath WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741C6641EAF1E0F00276E13 /* Build configuration list for PBXNativeTarget "IMC_AppleWath WatchKit App" */;
+			buildPhases = (
+				1741C6411EAF1E0F00276E13 /* Resources */,
+				1741C6631EAF1E0F00276E13 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1741C6551EAF1E0F00276E13 /* PBXTargetDependency */,
+			);
+			name = "IMC_AppleWath WatchKit App";
+			productName = "IMC_AppleWath WatchKit App";
+			productReference = 1741C6431EAF1E0F00276E13 /* IMC_AppleWath WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1741C6511EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1741C6601EAF1E0F00276E13 /* Build configuration list for PBXNativeTarget "IMC_AppleWath WatchKit Extension" */;
+			buildPhases = (
+				1741C64E1EAF1E0F00276E13 /* Sources */,
+				1741C64F1EAF1E0F00276E13 /* Frameworks */,
+				1741C6501EAF1E0F00276E13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IMC_AppleWath WatchKit Extension";
+			productName = "IMC_AppleWath WatchKit Extension";
+			productReference = 1741C6521EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1741C6291EAF1E0E00276E13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = aget;
+				TargetAttributes = {
+					1741C6301EAF1E0E00276E13 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = WCQ477S6T7;
+						ProvisioningStyle = Automatic;
+					};
+					1741C6421EAF1E0F00276E13 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = WCQ477S6T7;
+						ProvisioningStyle = Automatic;
+					};
+					1741C6511EAF1E0F00276E13 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = WCQ477S6T7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1741C62C1EAF1E0E00276E13 /* Build configuration list for PBXProject "IMC_AppleWath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1741C6281EAF1E0E00276E13;
+			productRefGroup = 1741C6321EAF1E0E00276E13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1741C6301EAF1E0E00276E13 /* IMC_AppleWath */,
+				1741C6421EAF1E0F00276E13 /* IMC_AppleWath WatchKit App */,
+				1741C6511EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1741C62F1EAF1E0E00276E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C63F1EAF1E0E00276E13 /* LaunchScreen.storyboard in Resources */,
+				1741C63C1EAF1E0E00276E13 /* Assets.xcassets in Resources */,
+				1741C63A1EAF1E0E00276E13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C6411EAF1E0F00276E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C64C1EAF1E0F00276E13 /* Assets.xcassets in Resources */,
+				1741C64A1EAF1E0F00276E13 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C6501EAF1E0F00276E13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C65C1EAF1E0F00276E13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1741C62D1EAF1E0E00276E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C6371EAF1E0E00276E13 /* ViewController.swift in Sources */,
+				1741C6351EAF1E0E00276E13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1741C64E1EAF1E0F00276E13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1741C65A1EAF1E0F00276E13 /* ExtensionDelegate.swift in Sources */,
+				1741C6581EAF1E0F00276E13 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1741C6461EAF1E0F00276E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1741C6421EAF1E0F00276E13 /* IMC_AppleWath WatchKit App */;
+			targetProxy = 1741C6451EAF1E0F00276E13 /* PBXContainerItemProxy */;
+		};
+		1741C6551EAF1E0F00276E13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1741C6511EAF1E0F00276E13 /* IMC_AppleWath WatchKit Extension */;
+			targetProxy = 1741C6541EAF1E0F00276E13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1741C6381EAF1E0E00276E13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1741C6391EAF1E0E00276E13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1741C63D1EAF1E0E00276E13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1741C63E1EAF1E0E00276E13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1741C6481EAF1E0F00276E13 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1741C6491EAF1E0F00276E13 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1741C65E1EAF1E0F00276E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1741C65F1EAF1E0F00276E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1741C6611EAF1E0F00276E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = WCQ477S6T7;
+				INFOPLIST_FILE = "IMC_AppleWath WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aget.IMC-AppleWath.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		1741C6621EAF1E0F00276E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = WCQ477S6T7;
+				INFOPLIST_FILE = "IMC_AppleWath WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aget.IMC-AppleWath.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		1741C6651EAF1E0F00276E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WCQ477S6T7;
+				IBSC_MODULE = IMC_AppleWath_WatchKit_Extension;
+				INFOPLIST_FILE = "IMC_AppleWath WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aget.IMC-AppleWath.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Debug;
+		};
+		1741C6661EAF1E0F00276E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WCQ477S6T7;
+				IBSC_MODULE = IMC_AppleWath_WatchKit_Extension;
+				INFOPLIST_FILE = "IMC_AppleWath WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aget.IMC-AppleWath.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		1741C6691EAF1E0F00276E13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WCQ477S6T7;
+				INFOPLIST_FILE = IMC_AppleWath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aget.IMC-AppleWath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1741C66A1EAF1E0F00276E13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WCQ477S6T7;
+				INFOPLIST_FILE = IMC_AppleWath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aget.IMC-AppleWath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1741C62C1EAF1E0E00276E13 /* Build configuration list for PBXProject "IMC_AppleWath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C65E1EAF1E0F00276E13 /* Debug */,
+				1741C65F1EAF1E0F00276E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1741C6601EAF1E0F00276E13 /* Build configuration list for PBXNativeTarget "IMC_AppleWath WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C6611EAF1E0F00276E13 /* Debug */,
+				1741C6621EAF1E0F00276E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1741C6641EAF1E0F00276E13 /* Build configuration list for PBXNativeTarget "IMC_AppleWath WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C6651EAF1E0F00276E13 /* Debug */,
+				1741C6661EAF1E0F00276E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1741C6681EAF1E0F00276E13 /* Build configuration list for PBXNativeTarget "IMC_AppleWath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1741C6691EAF1E0F00276E13 /* Debug */,
+				1741C66A1EAF1E0F00276E13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1741C6291EAF1E0E00276E13 /* Project object */;
+}
