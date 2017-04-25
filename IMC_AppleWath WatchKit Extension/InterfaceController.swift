@@ -9,9 +9,13 @@
 import WatchKit
 import Foundation
 
-
 class InterfaceController: WKInterfaceController {
-
+    
+    @IBOutlet var displayLabel: WKInterfaceLabel!
+    @IBAction func accionButton() {
+        self.displayLabel.setText("Hola, Saludos!!")
+    }
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
